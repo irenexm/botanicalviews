@@ -31,46 +31,26 @@
         <img class="logo" src="img/logo.png" alt="logo" />
         <h1>Botanical Views</h1>
       </div>
-      <div class="container">
-        <div class="row">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
 
-            <div
-              class="collapse navbar-collapse flex"
-              id="navbarSupportedContent"
-            >
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about.html">about</a>
-                </li>
+      <nav class="main-nav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">about</a>
+          </li>
 
-                <li class="nav-item">
-                  <a class="nav-link" href="contact.html">contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
+          <li class="nav-item current">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <div class="container">
-        <p>Contact us here!</p>
-        <form method="get" action="">
+      <section id="user-form">
+        <h3>Contact us here!</h3>
+        <form>
           <label for="name">Name</label>
           <input type="text" name="name" required />
           <br />
@@ -88,7 +68,7 @@
           </textarea>
           <button type="submit">Submit</button>
         </form>
-      </div>
+      </section>
     </main>
     <footer>
       <img class="logo-small" src="img/logo-small.png" alt="logo-small" />
