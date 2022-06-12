@@ -23,7 +23,13 @@
       type="text/javascript"
       src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
     ></script>
-    <title>Final Project</title>
+    <link rel="apple-touch-icon" sizes="144x144" href="/icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+    <link rel="manifest" href="/icon/site.webmanifest">
+    <link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <title>Botanical Views</title>
   </head>
   <body>
     <header>
@@ -49,22 +55,16 @@
     </header>
     <main>
       <section id="user-form">
-        <h3>Contact us here!</h3>
+        <h3 class="bold">Contact us here!</h3>
         <form>
           <label for="name">Name</label>
-          <input type="text" name="name" required />
+          <input title="name" type="text" name="name" required />
           <br />
           <label for="email">Email</label>
-          <input type="email" name="email" required />
+          <input title="email" type="email" name="email" required />
           <br />
           <label for="message">Message</label>
-          <textarea
-            name="message"
-            rows="5"
-            cols="60"
-            maxlength="1000"
-            wrap="hard"
-          >
+          <textarea title="message" name="message" rows="5" cols="60" maxlength="1000">
           </textarea>
           <button type="submit">Submit</button>
         </form>
